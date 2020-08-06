@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="HockeyGameStyle.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>HockeyGameScore</h1>
+<div class="bigWrapper">
+    <form name="scoreData" id="scoreData">
+        <label for="redTeam">redTeamName:</label><input type="text" id="redTeam" name="redTeamName" value="lol">
+        <label for="score">score:</label><input type="text" id="score" name="scoreBox" value="5:6OT">
+        <label for="blueTeam">blueTeamName</label><input type="text" id="blueTeam" name="redTeamName" value="kek">
+    </form>
+    <button type="button" form="scoreData" id="scoreDataButton">print awesome result</button>
+</div>
+
+<div class="scoreRepresentation">
+    <span id="scoreRoll">
+        kek defeat lol in OT with score 6:5OT
+    </span>
+</div>
+
+<script src="HockeyGameLogic.js"></script>
+</body>
+</html>
